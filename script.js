@@ -90,6 +90,5 @@ StringBuilder.prototype.divide = function (value) {
     this.value = this.value.substr(value)
     return this;
   };
-
 const test2 = new StringBuilder("Hello");
 test2.plus(" all!").minus(4).multiply(3).divide(4).remove('l').sub(1,1).get()
