@@ -8,27 +8,8 @@ class Base {
     return this;
   }
 
-  minus() {
-    throw new Error('Should be implemented');
-  }
-  divide() {
-    throw new Error('Should be implemented');
-  }
-  mod() {
-    throw new Error('Should be implemented');
-  }
-  multiply() {
-    throw new Error('Should be implemented');
-  }
-  remove() {
-    throw new Error('Should be implemented');
-  }
-  sub() {
-    throw new Error('Should be implemented');
-  }
-
   get() {
-    console.log(this.value);;
+    return this.value;
   }
 }
 
